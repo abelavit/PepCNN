@@ -6,13 +6,13 @@ Protein-peptide interaction is a very important biological process as it plays r
 # Download and Use
 There are two ways to use the provided codes for each dataset. 
 ## 1. Load the trained PepCNN model
-   The result obtained in our work can be replicated by executing dataset1_PepCNN.py script for Dataset1, and dataset2_PepCNN.py script for Dataset2. For instance, to obtain the result of PepCNN on dataset1, run the dataset1_PepCNN.py script after downloading the following files by going to this link: 
+   The result obtained in our work can be replicated by executing dataset1_PepCNN.py script for Dataset1, and dataset2_PepCNN.py script for Dataset2. For instance, to obtain the result of PepCNN on dataset1, run the dataset1_PepCNN.py script after downloading the following files by going to this link (caution: data size is around 1.3GB for each dataset): 
    - model weights: dataset1_best_model_weights.h5
    - training set negative samples: dataset1_Train_Negatives_All.dat
    - training set positive samples: dataset1_Train_Positives.dat
    - testing set: dataset1_Test_Samples.dat
 ## 2. Retrain the CNN model
-To train the network from scratch, it can be done by executing dataset1_PepCNN_train.py script for Dataset1, and dataset2_PepCNN_train.py script for Dataset2. For instance, to train the network on dataset1, run the dataset1_PepCNN_train.py script after downloading the following files by going to this link: 
+To train the network from scratch, it can be done by executing dataset1_PepCNN_train.py script for Dataset1, and dataset2_PepCNN_train.py script for Dataset2. For instance, to train the network on dataset1, run the dataset1_PepCNN_train.py script after downloading the following files by going to this link (caution: data size is 1.22GB for both datasets): 
    - testing protein sequences: Dataset1_test.tsv
    - protein sequences excluding testing sequences: Dataset1_train.tsv
    - pre-trained transformer embeddings: T5_Features.dat
