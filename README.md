@@ -3,6 +3,6 @@ Protein-peptide interaction is a very important biological process as it plays r
 
 # Download and Use
 There are two ways to use the provided codes for each dataset. 
-1. Load the trained PepCNN model
+# 1. Load the trained PepCNN model
    The result obtained in our work can be replicated by executing dataset1_PepCNN.py script for Dataset1, and dataset2_PepCNN.py script for Dataset2.
-2. Retrain the CNN model
+# 2. Retrain the CNN model
