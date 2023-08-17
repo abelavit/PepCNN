@@ -11,7 +11,7 @@ There are two ways to use the provided codes for each dataset.
    - training set negative samples: dataset1_Train_Negatives_All.dat
    - training set positive samples: dataset1_Train_Positives.dat
    - testing set: dataset1_Test_Samples.dat
-## 2. Retrain the CNN model
+## 2. Train the CNN model
 To train the network from scratch, it can be done by executing dataset1_PepCNN_train.py script for Dataset1, and dataset2_PepCNN_train.py script for Dataset2. For instance, to train the network on dataset1, run the dataset1_PepCNN_train.py script after downloading the following files by going to this link (caution: data size is 1.22GB for both datasets): 
    - testing protein sequences: Dataset1_test.tsv
    - protein sequences excluding testing sequences: Dataset1_train.tsv
