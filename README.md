@@ -14,5 +14,5 @@ To train the network from scratch, it can be done by executing dataset1_PepCNN_t
    - testing protein sequences: Dataset1_test.tsv
    - protein sequences excluding testing sequences: Dataset1_train.tsv
    - pre-trained transformer embeddings: T5_Features.dat
-   - PSSM feature: PSSM_Features.dat
-   - HSE feature: HSE_Features.dat
+   - PSSM features: PSSM_Features.dat
+   - HSE features: HSE_Features.dat
