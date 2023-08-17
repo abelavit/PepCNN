@@ -1,7 +1,8 @@
 # PepCNN
 Protein-peptide interaction is a very important biological process as it plays role in many cellular processes, but it is also involved in abnormal cellular behaviors which lead to diseases like cancer. Studying these interaction is therefore vital for understanding protein functions as well as discovering of drugs for disease treatment. The physical understanding of the interactions by the use of experimental approach of studying the interactions are laborious, time-consuming, and expensive. In this regard, we have developed a new prediction method called PepCNN which uses structure and sequence-based information from primary protein sequences to predict the peptide-binding residues. The combination of half sphere exposure structural information, position specific scoring matrix and pre-trained transformer language model based sequence information, and convolutional neural network from deep learning resulted in a superior performance compared to the state-of-the-art methods on the two datatsets. 
 
-[Architecture.pdf](https://github.com/abelavit/PepCNN/files/12368731/Architecture.pdf)
+![CNN](https://github.com/abelavit/PepCNN/assets/36461816/b678f169-3e44-4273-90cd-0932d196e132)
+
 
 # Download and Use
 There are two ways to use the provided codes for each dataset. 
