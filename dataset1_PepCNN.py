@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning)
 import tensorflow as tf
 import tensorflow.keras.layers as tfl
 
-# load remaining data
+# load data that excludes the test data
 file = open("dataset1_Train_Positives.dat",'rb')
 positive_set = pickle.load(file)
 file = open("dataset1_Train_Negatives_All.dat",'rb')
