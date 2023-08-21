@@ -72,9 +72,7 @@ def CNN_Model():
   
     model.add(tfl.Flatten())
     
-    #model.add(tfl.Dense(1000, activation='relu'))
     model.add(tfl.Dense(128, activation='relu'))
-    #model.add(tfl.Dropout(0.2))
     model.add(tfl.Dense(32, activation='relu'))
     model.add(tfl.Dense(1, activation='sigmoid'))
     
