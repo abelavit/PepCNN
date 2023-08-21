@@ -15,7 +15,7 @@ import tensorflow as tf
 import tensorflow.keras.layers as tfl
 
 
-# load remaining data
+# load data that excludes the test data
 file = open("dataset1_Train_Positives_rerun.dat",'rb')
 positive_set = pickle.load(file)
 file = open("dataset1_Train_Negatives_All_rerun.dat",'rb')
