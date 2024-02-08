@@ -20,11 +20,11 @@ To train the network from scratch, it can be done by executing dataset1_PepCNN_t
    - HSE features: HSE_Features.dat
 
 Package verions:
-Python 3.10.12
-Pandas 1.5.3
-Pickle 4.0
-Numpy 1.25.2
-scikit-learn 1.2.2
-Matplotlib 3.7.2
+Python 3.10.12,
+Pandas 1.5.3,
+Pickle 4.0,
+Numpy 1.25.2,
+scikit-learn 1.2.2,
+Matplotlib 3.7.2,
 Tensorflow 2.12.0
 
