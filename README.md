@@ -19,7 +19,7 @@ To train the network from scratch, it can be done by executing dataset1_PepCNN_t
    - PSSM features: PSSM_Features.dat
    - HSE features: HSE_Features.dat
 
-Package verions:
+Package versions:
 Python 3.10.12,
 Pandas 1.5.3,
 Pickle 4.0,
